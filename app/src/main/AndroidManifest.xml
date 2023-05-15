@@ -11,7 +11,7 @@
         android:theme="@style/Theme.NavTabs">
 
         <activity
-            android:name=".SplashActivity"
+            android:name=".app.SplashActivity"
             android:theme="@style/SplashActivity"
             android:exported="true">
             <intent-filter>
@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".screens.main.MainActivity" />
+        <activity android:name=".app.screens.main.MainActivity" />
 
     </application>
 

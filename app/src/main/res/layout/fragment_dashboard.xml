@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".screens.main.tabs.dashboard.DashboardFragment">
+    tools:context=".app.screens.main.tabs.dashboard.DashboardFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/boxesContainer"
@@ -28,13 +28,13 @@
 
         <!-- This is an example, real items are derived from the model: -->
 
-        <com.belyakov.room.views.DashboardItemView
+        <com.belyakov.room.app.views.DashboardItemView
             android:id="@+id/greenBox"
             style="@style/DefaultDashboardItemStyle"
             app:color="#008800"
             app:title="Green Box" />
 
-        <com.belyakov.room.views.DashboardItemView
+        <com.belyakov.room.app.views.DashboardItemView
             android:id="@+id/yellowBox"
             style="@style/DefaultDashboardItemStyle"
             app:color="#888800"
